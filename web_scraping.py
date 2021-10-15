@@ -16,4 +16,4 @@ doc2 = BeautifulSoup(result.text, "html.parser")
 prices = doc.find_all(text="$")
 parent = prices[0].parent
 strong = parent.find("strong") # checks for the strong html tag
-print(strong.string)
+print(strong.string) # prints only the amount of price
