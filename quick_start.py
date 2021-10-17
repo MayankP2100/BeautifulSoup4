@@ -13,7 +13,7 @@ and they lived at the bottom of a well.</p>
 """
 
 
-soup = BeautifulSoup(html_doc, 'html.parser')
+soup = BeautifulSoup(html_doc, 'html.parser') # BeautifulSoup method arranges the document nicely
 
 # print(soup.prettify()) # to print the document formatted
 
